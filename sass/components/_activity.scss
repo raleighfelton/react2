@@ -2,60 +2,78 @@
 
 .activity {
   height: 64px;
-
-  margin: 18px auto;
   background-color: $darkblack;
   //background-color: green;
+  margin: 18px auto;
 
   @media screen and (min-width: 768px) {
     max-width: 720px;
+
   }
 }
-
-/*
-
-
-*/
 
 .user-image {
   height: 64px;
   width: 64px;
-  //margin: $margin-16;
   float: left;
-}
-
-.user-name {
-  height: 24px;
-  width: 160px;
-  margin: 12px 0px;
-  padding: $padding-4;
-  float: left;
-
-  @media screen and (min-width: 768px) {
-   margin: 20px;
-   width: auto;
-  }
-}
-
-.action {
-  height: 64px;
-  width: 80px;
-  float: right;
-}
-
-.action-icon {
-  height: 32px;
-  width: 48px;
-  margin: 16px;
 }
 
 .clip-circle {
-  margin: 16px;
+  margin: $margin-16;
   position: absolute;
   -webkit-clip-path: circle(50% at 50% 50%);
   clip-path: circle(50% at 50% 50%);
 
   img {
     display: block
+  }
+}
+
+
+
+.user-name {
+  height: 24px;
+  width: 160px;
+  margin: 12px 0px;
+  padding: $padding-4 0px;
+  float: left;
+
+  @media screen and (min-width: 768px) {
+   margin: 20px;
+   width: auto;
+   padding: $padding-4;
+  }
+}
+
+.user-name h6{
+  font-size: $font-size-sm;
+
+  @media screen and (min-width: 768px){
+    font-size: $font-size-h6;
+  }
+}
+
+.user-name .p2 {
+  font-size: $font-size-sm;
+  @media screen and (min-width: 768px){
+    display: inline-block;
+    float: right;
+  }
+}
+
+.action {
+  height: 64px;
+  margin-right: $margin-8;
+  //width: 80px;
+  float: right;
+}
+
+.action-icon {
+  margin: 16px 0px;
+
+  @media screen and (min-width: 768px){
+    height: 32px;
+    width: 48px;
+    margin: $margin-16;
   }
 }
