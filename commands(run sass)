@@ -1,0 +1,13 @@
+sass --watch sass:css
+
+
+command + c
+
+
+http://www.sassmeister.com/
+
+http://sass-lang.com/guide
+
+this is a basic live-reload server you can run alongside your testing
+
+https://browsersync.io/

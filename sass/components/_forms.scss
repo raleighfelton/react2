@@ -1,0 +1,32 @@
+// Form groups
+//
+// Designed to help with the organization and spacing of vertical forms. For
+// horizontal forms, use the predefined grid classes.
+
+.form-group {
+  margin-bottom: .25rem;
+}
+
+.form-text {
+  display: block;
+  margin-top: .25rem;
+}
+
+label {
+  font-family: $font-family-regular;
+  font-size: $font-size-xs;
+  margin-bottom: 16px;
+  color: $white;
+
+}
+
+input {
+  font-family: $font-family-bold;
+  display: block;
+  margin: 16px 0px;
+  padding: 14px 16px 12px;
+  width: $width-3;
+  border: none;
+  background-color: white;
+  border-radius: $border-radius;
+}

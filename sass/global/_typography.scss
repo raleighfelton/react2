@@ -1,0 +1,99 @@
+//typography
+
+
+//
+// Headings
+//
+
+
+h1, h2, h3, h4, h5, h6, a, .btn {
+  font-family: $font-family-bold;
+  color: $white;
+
+}
+
+
+
+.p1, .p2, .legal, .sm-label  {
+  font-family: $font-family-regular;
+  color: $white;
+}
+
+
+h1, .h1 { font-size: $font-size-h1; }
+h2, .h2 { font-size: $font-size-h2; }
+h3, .h3 { font-size: $font-size-h3; }
+h4, .h4 { font-size: $font-size-h4; }
+h5, .h5 { font-size: $font-size-h5; }
+h6, a .h6, a, .p2 { font-size: $font-size-h6; }
+
+h1 {
+  letter-spacing: -1px;
+  line-height: 100px;
+}
+
+h2 {
+  letter-spacing: -1.49px;
+  line-height: 66px;
+
+}
+
+h3 {
+  letter-spacing: -0.9px;
+  line-height: 48px;
+
+}
+
+h4 {
+  letter-spacing: -0.4px;
+
+}
+
+h5 {
+  letter-spacing: -0.25px;
+
+}
+
+
+a {
+  color: $link-color;
+  letter-spacing: -0.41px;
+  line-height: 32px;
+
+  text-decoration: $link-decoration;
+
+  transition: color 0.2s ease-out;
+
+  &:hover {
+       color: $link-hover-color;
+    }
+
+}
+
+.p1 {
+  font-size: $font-size-lg;
+  //color: $lightgrey;
+  letter-spacing: -0.11px;
+  line-height: 32px;
+  }
+
+.p2 {
+  line-height: 22px;
+}
+
+.legal{
+  font-size: $font-size-sm;
+  color: $lightgrey;
+  line-height: 22px;
+}
+
+.sm-label{
+  font-size: $font-size-xs;
+  letter-spacing: -0.13px;
+}
+
+.btn {
+  font-size: $font-size-btn;
+  letter-spacing: .1rem;
+
+}

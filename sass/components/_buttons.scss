@@ -1,0 +1,100 @@
+
+
+// Button Styles
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+  text-decoration: none;
+	letter-spacing: .09rem;
+	text-transform: uppercase;
+
+	cursor: pointer;
+
+	border-radius: $btn-border-radius-sm;
+	-moz-apperance: none;
+	-webkit-appearance: none;
+	padding: 16px 56px 15px;
+	margin: 16px;
+
+	&:after {
+
+	}
+
+	/* Pseudo elements for icons */
+	&:before {
+    font-family: 'FontAwesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+
+	&:hover {
+    transition: background-color .2s ease-out;
+
+	}
+
+}
+
+// Outline
+.btn-outline {
+	color: $tangerine;
+	font-size: $font-size-btn;
+	border: 2px solid $tangerine;
+	text-transform: uppercase;
+	background: $black;
+
+	&:hover {
+    transition: background .2s ease-out;
+		background: $darkgrey;
+    //border: 2px solid $darkgrey;
+
+	}
+}
+
+// rounded
+.btn-rounded {
+	border-radius: $btn-border-radius;
+}
+
+.btn-filled {
+		background-color: $darkgrey;
+		font-size: $font-size-xs;
+		font-style: $font-weight-normal;
+
+		&:hover {
+			background: $darkgrey;
+	}
+}
+
+// with Icon
+/* Icons */
+
+.btn-icon-facebook:before {
+	content: "\F09A";
+  padding-right: 10px;
+}
+
+.btn-icon-twitter:before {
+	content: "\F099";
+  padding-right: 10px;
+}
+
+.btn-icon-apple:before {
+	content: "\F179";
+  padding-right: 10px;
+}
+
+//
+// Block button
+//
+
+.btn-block {
+  display: block;
+}

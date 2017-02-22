@@ -1,0 +1,61 @@
+//activity
+
+.activity {
+  height: 64px;
+
+  margin: 18px auto;
+  background-color: $darkblack;
+  //background-color: green;
+
+  @media screen and (min-width: 768px) {
+    max-width: 720px;
+  }
+}
+
+/*
+
+
+*/
+
+.user-image {
+  height: 64px;
+  width: 64px;
+  //margin: $margin-16;
+  float: left;
+}
+
+.user-name {
+  height: 24px;
+  width: 160px;
+  margin: 12px 0px;
+  padding: $padding-4;
+  float: left;
+
+  @media screen and (min-width: 768px) {
+   margin: 20px;
+   width: auto;
+  }
+}
+
+.action {
+  height: 64px;
+  width: 80px;
+  float: right;
+}
+
+.action-icon {
+  height: 32px;
+  width: 48px;
+  margin: 16px;
+}
+
+.clip-circle {
+  margin: 16px;
+  position: absolute;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+
+  img {
+    display: block
+  }
+}

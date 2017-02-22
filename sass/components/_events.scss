@@ -1,0 +1,74 @@
+.event {
+  display: flex;
+  margin: 32px auto;
+
+  max-width: 400px;
+  min-height: 226px;
+
+  background-color: grey;
+  background: linear-gradient(-180deg, rgba(0,0,0,0.00) 40%, #000000 80%),
+    #ffa949 url("../assets/img/superbowl.png") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    height: 420px;
+    max-width: 720px;
+  }
+
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+
+.event-info {
+  height: 32px;
+
+  @media screen and (min-width: 768px){
+    height: 64px;
+    margin: 16px;
+  }
+}
+
+.event-info-container, .event-title-container {
+  color: white;
+  height: 32px;
+  width: 50%;
+
+  @media screen and (min-width: 768px){
+    height: 64px;
+    margin: 16px;
+  }
+}
+
+.event-title {
+  height: 32px;
+  margin-left: $margin-8;
+  font-family: $font-family-bold;
+  font-size: $font-size-lg;
+
+  @media screen and (min-width: 768px){
+    font-size: $font-size-h4;
+    margin: 16px;
+  }
+
+}
+
+.event-following, .event-friends{
+  font-family: $font-family-regular;
+  font-size: $font-size-sm;
+  text-align: right;
+  color: $lightgrey;
+
+  padding: $padding-8;
+
+  float: right;
+
+  @media screen and (min-width: 768px){
+    font-size: $font-size-h6;
+    padding: 0px 8px;
+    margin: 16px 0px;
+  }
+}
